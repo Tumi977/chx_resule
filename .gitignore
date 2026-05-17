@@ -14,7 +14,11 @@ venv/
 env/
 
 # Training artifacts
-ckpts/
+ckpts/*
+!ckpts/_archive_72.16_p3_mlgc_big/
+ckpts/_archive_72.16_p3_mlgc_big/*
+!ckpts/_archive_72.16_p3_mlgc_big/README.md
+!ckpts/_archive_72.16_p3_mlgc_big/best.pkl
 logs/
 outputs/
 
