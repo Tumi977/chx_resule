@@ -1,0 +1,37 @@
+__pycache__/
+*.py[cod]
+*.so
+.DS_Store
+
+# Local tooling
+.codex
+.vscode/
+.idea/
+
+# Python envs
+.venv/
+venv/
+env/
+
+# Training artifacts
+ckpts/
+logs/
+outputs/
+
+# Data and generated evaluation assets
+datasets/__pycache__/
+eval/__pycache__/
+inference/__pycache__/
+losses/__pycache__/
+models/__pycache__/
+utils/__pycache__/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.npy
+*.npz
+
+# Runtime files
+*.pid
+*.out
